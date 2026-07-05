@@ -3,7 +3,8 @@
 ## Course
 **Odoo ERP/CRM Learning Journey**
 
-**Day:** 1  
+**Duration:** 60 Days  
+**Day:** 1 / 60  
 **Date:** 05-07-2026
 
 ---
@@ -37,11 +38,11 @@
 
 ## 💡 Key Learnings
 
-- ERP integrates all business departments into a single system.
-- CRM focuses on managing customer relationships and sales activities.
-- Odoo is an open-source ERP and CRM platform built mainly with Python and PostgreSQL.
-- Odoo provides modular applications such as Sales, CRM, Inventory, HR, Accounting, Manufacturing, and more.
-- Businesses use ERP systems to improve efficiency, automate workflows, and make data-driven decisions.
+- ERP integrates all business departments into one centralized system.
+- CRM manages customer relationships and sales activities.
+- Odoo is an open-source ERP and CRM platform built using Python and PostgreSQL.
+- Odoo offers modular applications for managing different business processes.
+- ERP systems improve productivity, collaboration, and decision-making.
 
 ---
 
@@ -49,43 +50,32 @@
 
 - ERP Fundamentals
 - CRM Fundamentals
+- Odoo Basics
 - Business Process Understanding
-- Odoo Overview
-- Enterprise Software Basics
-
----
-
-## 📂 Repository Progress
-
-```
-Odoo-ERP-CRM
-│
-├── README.md
-│
-└── Day 1
-      ├── Notes.md
-      ├── Day1_Status.md
-      └── Images
-```
+- Enterprise Software Concepts
 
 ---
 
 ## 🎯 Day 1 Outcome
 
-I successfully completed the introduction to ERP, CRM, and Odoo. I now understand how ERP systems integrate business operations, how CRM manages customer relationships, and why Odoo is one of the most popular open-source ERP platforms used by organizations worldwide.
+Successfully completed the fundamentals of ERP, CRM, and Odoo. Gained a clear understanding of enterprise software, Odoo architecture, and business workflows.
 
 ---
 
 ## 🚀 Next Learning (Day 2)
 
 - Odoo Editions (Community vs Enterprise)
-- Odoo Installation Options
-- Odoo User Interface
+- Odoo Installation
 - Creating the First Database
-- Exploring Odoo Apps and Navigation
+- Odoo User Interface
+- Apps & Navigation
 
 ---
 
-**Status:** ✅ Day 1 Completed Successfully
+# 📈 Progress
 
-**Overall Progress:** **1 / 90 Days (1.1%)**
+**Completed:** 1 / 60 Days
+
+**Overall Progress:** **1.67%** ✅
+
+**Status:** ✔️ Day 1 Completed Successfully
