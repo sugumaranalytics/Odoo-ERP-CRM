@@ -231,6 +231,16 @@ All departments are automatically updated using the ERP system.
 
 ---
 
+| Term     | Expansion                              |
+| -------- | -------------------------------------- |
+| **Odoo** | **No official expansion (Brand Name)** |
+| **ERP**  | Enterprise Resource Planning           |
+| **CRM**  | Customer Relationship Management       |
+| **HR**   | Human Resources                        |
+| **POS**  | Point of Sale                          |
+| **MRP**  | Manufacturing Resource Planning        |
+
+
 # Today's Summary
 
 Today I learned the fundamental concepts of ERP, CRM, and Odoo. I understood how ERP integrates different departments into a single platform and how CRM helps manage customer relationships. I also explored Odoo's architecture, major modules, and its role in helping businesses automate and streamline their operations.
