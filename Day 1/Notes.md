@@ -5,7 +5,7 @@
 | ---------------- | ------- | ---------------------------------------- |
 | **2002**         | TinyERP | Small Enterprise Resource Planning       |
 | **2009**         | OpenERP | Open Source Enterprise Resource Planning |
-| **2014–Present** | Odoo    | Official brand name (no expansion)       |
+| **2014–Present** | Odoo    | Official brand name                      |
 
 
 # Day 1 - Introduction to ERP, CRM & Odoo
