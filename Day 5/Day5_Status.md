@@ -246,50 +246,6 @@ Education
 
 **Status:** ✅ Completed
 
----
-
-# Problems Faced
-
-### PostgreSQL Authentication Error
-
-```
-Peer authentication failed
-```
-
-Solved by:
-
-- Creating PostgreSQL Role
-- Changing Authentication Method
-- Resetting Password
-- Restarting PostgreSQL
-
----
-
-### PostgreSQL Cluster Down
-
-Solved by:
-
-```
-sudo pg_ctlcluster 17 main start
-```
-
----
-
-### pg_hba.conf Syntax Error
-
-Fixed broken configuration line and restarted PostgreSQL.
-
----
-
-### Password Authentication Failed
-
-Solved by:
-
-```sql
-ALTER USER odoo WITH PASSWORD 'odoo';
-```
-
----
 
 # Skills Learned
 
