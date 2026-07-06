@@ -1,0 +1,144 @@
+What is Ingres?
+
+Ingres is one of the world's earliest Relational Database Management Systems (RDBMS).
+
+It was developed at the University of California, Berkeley in the early 1970s.
+
+What does "Ingres" mean?
+
+Ingres is short for:
+
+INteractive GRaphics and REtrieval System
+
+Breaking it down:
+----------------
+
+IN   → Interactive
+GR   → Graphics
+RES  → Retrieval System
+
+↓
+
+INGRES
+
+===
+Meaning:
+
+Interactive → Users can interact directly with the database.
+Graphics → The original project was related to interactive graphics applications.
+Retrieval System → Used to retrieve (search and access) stored data.
+
+==========
+
+History Timeline
+
+1970
+   │
+   ▼
+INGRES
+(Early Database)
+
+   │
+   ▼
+1986
+POSTGRES
+(Successor to Ingres)
+
+   │
+   ▼
+1996
+PostgreSQL
+(Postgres + SQL)
+
+====
+
+Why was POSTGRES created?
+
+The developers wanted to build a more advanced database than Ingres.
+
+So they created:
+
+INGRES
+   │
+   ▼
+POSTGRES
+
+Meaning:
+"After Ingres"
+
+ater, SQL support was added:
+
+POSTGRES
+      +
+SQL
+      │
+      ▼
+PostgreSQL
+
+==========
+
+Simple Analogy
+
+Imagine software versions:
+
+Windows XP
+      │
+      ▼
+Windows 7
+      │
+      ▼
+Windows 10
+
+====
+
+Similarly:
+
+Ingres
+      │
+      ▼
+Postgres
+      │
+      ▼
+PostgreSQL
+
+Each version introduced more features and improvements.
+
+==========
+
+Complete Family Tree
+-------------------
+
+
+Ingres
+(Early RDBMS)
+
+        │
+        ▼
+POSTGRES
+(New Generation Database)
+
+        │
+        ▼
+Added SQL Support
+
+        │
+        ▼
+PostgreSQL
+
+============
+
+What is Ingres?
+
+Answer:
+
+Ingres is an early Relational Database Management System (RDBMS) developed at the University of California, Berkeley. 
+Its name is an abbreviation of INteractive GRaphics and REtrieval System. 
+It inspired the development of POSTGRES, which later evolved into PostgreSQL.
+
+=========
+
+
+
+
+
+
