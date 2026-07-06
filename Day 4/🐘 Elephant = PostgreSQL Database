@@ -48,3 +48,44 @@ PostgreSQL 🐘
    └── Invoice
 
 The elephant simply indicates where the data is stored.
+
+=====
+
+A mascot is a symbol, character, animal, or figure that represents a company, organization, team, product, or brand. 
+It helps people recognize and remember that organization.
+
+Simple Definition
+
+Mascot = A symbolic character that represents a brand or organization.
+
+| Company / Organization | Mascot           | Meaning                                |
+| ---------------------- | ---------------- | -------------------------------------- |
+| PostgreSQL             | 🐘 Elephant      | Strength, reliability, memory          |
+| Linux                  | 🐧 Tux (Penguin) | Friendly, open-source operating system |
+| Android                | 🤖 Android Robot | Android mobile platform                |
+| Mozilla Firefox        | 🦊 Fox           | Firefox web browser                    |
+| GitHub                 | 🐱 Octocat       | GitHub platform                        |
+
+
+========
+
+Why PostgreSQL chose the Elephant
+
+The elephant represents:
+
+🧠 Memory – Databases store and retrieve information.
+💪 Strength – Can handle large amounts of data.
+🛡️ Reliability – Trusted for business applications.
+📈 Scalability – Suitable for both small and large systems.
+Easy Example
+
+Think of famous brand mascots:
+
+🐯 Tony the Tiger → Kellogg's Frosted Flakes
+🐦 Twitter Bird → Twitter (formerly)
+🐘 Elephant → PostgreSQL
+
+When people see the mascot, they immediately recognize the brand.
+
+===========
+
