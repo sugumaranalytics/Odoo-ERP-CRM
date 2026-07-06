@@ -1,4 +1,22 @@
 📘 Odoo Development Course – Day 4
+
+| Step | Command                                      | Purpose                             |
+| ---- | -------------------------------------------- | ----------------------------------- |
+| 1    | `sudo -u postgres psql`                      | Open PostgreSQL                     |
+| 2    | `\l`                                         | List databases                      |
+| 3    | `\dt`                                        | List tables in the current database |
+| 4    | `\c odoo18db`                                | Connect to the Odoo database        |
+| 5    | `\dt`                                        | Show all Odoo tables                |
+| 6    | `SELECT id, name FROM res_partner LIMIT 10;` | Display contact records             |
+| 7    | `SELECT COUNT(*) FROM res_partner;`          | Count records                       |
+| 8    | `SELECT id, login FROM res_users;`           | Display Odoo users                  |
+| 9    | `\d res_partner`                             | Describe the table structure        |
+| 10   | `SELECT * FROM res_partner;`                 | Display all records                 |
+| 11   | `\q`                                         | Exit PostgreSQL                     |
+
+
+====
+
 Terminal Commands & Expected Results
 
 These are the exact commands you practiced during Day 4 on your Chromebook.
