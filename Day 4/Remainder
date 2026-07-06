@@ -8,7 +8,8 @@ Answer: PostgreSQL.
 
 3. What is ORM?
 
-Answer: ORM (Object Relational Mapping) is a layer that allows developers to interact with the PostgreSQL database using Python code instead of writing SQL queries directly.
+Answer: ORM (Object Relational Mapping) is a layer that allows developers to interact with the PostgreSQL database 
+using Python code instead of writing SQL queries directly.
 
 4. Which language is used for Models?
 
@@ -20,7 +21,8 @@ Answer: XML.
 
 6. What is the role of the Controller?
 
-Answer: It receives HTTP requests from the browser, calls the appropriate model, and returns the response to the user interface.
+Answer: It receives HTTP requests from the browser, calls the appropriate model, and returns the response 
+to the user interface.
 
 =====
 
