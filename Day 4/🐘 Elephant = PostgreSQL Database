@@ -1,0 +1,50 @@
+Why an Elephant?
+----------------
+
+The PostgreSQL community chose the elephant as its mascot (symbol) because an elephant symbolizes:
+
+🧠 Excellent Memory – Elephants are famous for remembering things. Databases are designed to store and retrieve data reliably.
+💪 Strength – PostgreSQL can handle large amounts of data and complex applications.
+🛡️ Reliability – Elephants are strong and dependable, just like PostgreSQL.
+📈 Scalability – PostgreSQL can grow from small projects to enterprise-level systems.
+
+=======
+
+Why does Odoo use PostgreSQL?
+
+Odoo stores all business information in a PostgreSQL database.
+
+Odoo Application
+       │
+       ▼
+ PostgreSQL Database 🐘
+       │
+       ▼
+Customers
+Products
+Sales
+Invoices
+Employees
+Inventory
+Real-world Example
+
+Suppose you create a Sales Order in Odoo.
+
+User
+   │
+   ▼
+Odoo Web Browser
+   │
+   ▼
+Odoo Server (Python)
+   │
+   ▼
+PostgreSQL 🐘
+   │
+   ├── Customer
+   ├── Product
+   ├── Quantity
+   ├── Price
+   └── Invoice
+
+The elephant simply indicates where the data is stored.
