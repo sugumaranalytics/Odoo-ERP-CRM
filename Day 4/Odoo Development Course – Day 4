@@ -206,3 +206,18 @@ SELECT id, login FROM res_users;
 ↓
 
 Linux Terminal
+
+===========
+
+PostgreSQL stores all Odoo business data.
+odoo18db is your Odoo database.
+res_partner stores contacts (customers, suppliers, companies, etc.).
+res_users stores Odoo user accounts.
+\l lists databases.
+\dt lists tables.
+\d table_name describes a table.
+SELECT retrieves data.
+\q exits PostgreSQL.
+
+
+===========
