@@ -1,0 +1,190 @@
+📘 Odoo Development Course – Day 4
+Terminal Commands & Expected Results
+
+These are the exact commands you practiced during Day 4 on your Chromebook.
+
+Step 1: Open PostgreSQL
+
+Command
+sudo -u postgres psql
+
+Result
+psql (17.x)
+Type "help" for help.
+
+postgres=#
+
+Step 2: List All Databases
+Command
+\l
+Result
+                                         List of databases
+   Name      |        Owner        | Encoding
+-------------+---------------------+----------
+odoo18db     | sugumarranganathan52| UTF8
+postgres     | postgres            | UTF8
+template0    | postgres            | UTF8
+template1    | postgres            | UTF8
+Step 3: Show Tables (Wrong Database Example)
+
+If you are still connected to the postgres database:
+
+Command
+\dt
+Result
+Did not find any relations.
+Explanation
+
+You are connected to the default PostgreSQL database, not your Odoo database.
+
+Prompt:
+
+postgres=#
+Step 4: Connect to the Odoo Database
+Command
+\c odoo18db
+Result
+You are now connected to database "odoo18db"
+
+Prompt changes to:
+
+odoo18db=#
+Step 5: List All Odoo Tables
+Command
+\dt
+Result
+List of relations
+
+public | res_partner
+public | res_users
+public | product_template
+public | ir_model
+public | ir_ui_view
+public | sale_order
+public | account_move
+public | stock_move
+...
+
+(120 rows)
+Step 6: View Contact Records
+Command
+SELECT id, name FROM res_partner LIMIT 10;
+Result
+ id |        name
+----+-----------------------
+ 4  | Public user
+ 6  | Portal User Template
+ 2  | System
+ 5  | Default User Template
+ 1  | My Company
+ 3  | Administrator
+
+(6 rows)
+Step 7: Count Records
+Command
+SELECT COUNT(*) FROM res_partner;
+Result
+ count
+-------
+     6
+
+(1 row)
+Step 8: View Odoo Users
+Command
+SELECT id, login FROM res_users;
+Example Result
+ id |      login
+----+-----------------
+  2 | admin
+
+(1 row)
+Step 9: Describe a Table
+Command
+\d res_partner
+Result (Example)
+Table "public.res_partner"
+
+Column
+---------------------
+id
+name
+email
+phone
+city
+country_id
+company_id
+...
+
+This shows the table structure (columns, types, indexes, etc.).
+
+Step 10: Display More Rows
+Command
+SELECT * FROM res_partner;
+Example Result
+id | name | email | phone
+---------------------------------
+1 | My Company | ...
+2 | Administrator | ...
+3 | Public user | ...
+...
+Step 11: Exit PostgreSQL
+Command
+\q
+Result
+
+Returns to the Linux terminal:
+
+(venv) sugumarranganathan52@penguin:~/odoo-dev/odoo$
+
+Complete Flow
+--------------
+
+Linux Terminal
+
+↓
+
+sudo -u postgres psql
+
+↓
+
+postgres=#
+
+↓
+
+\l
+
+↓
+
+\c odoo18db
+
+↓
+
+odoo18db=#
+
+↓
+
+\dt
+
+↓
+
+SELECT id, name FROM res_partner LIMIT 10;
+
+↓
+
+SELECT COUNT(*) FROM res_partner;
+
+↓
+
+SELECT id, login FROM res_users;
+
+↓
+
+\d res_partner
+
+↓
+
+\q
+
+↓
+
+Linux Terminal
