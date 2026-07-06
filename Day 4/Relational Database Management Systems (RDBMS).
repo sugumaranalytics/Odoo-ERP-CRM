@@ -1,3 +1,21 @@
+
+INGRES
+   │
+   ▼
+POSTGRES
+   │
+   ▼
+PostgreSQL
+
+=========
+
+
+Ingres = Original database
+Postgres = Improved version created after Ingres
+PostgreSQL = Postgres with SQL support
+
+This sequence is worth remembering because it explains the origin of PostgreSQL's name and often comes up in database history discussions.
+
 What is Ingres?
 
 Ingres is one of the world's earliest Relational Database Management Systems (RDBMS).
