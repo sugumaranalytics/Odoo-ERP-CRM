@@ -1,0 +1,48 @@
+1. What architecture does Odoo use?
+
+Answer: Odoo follows Three-Tier Architecture and the MVC (Model-View-Controller) design pattern.
+
+2. Which database does Odoo use?
+
+Answer: PostgreSQL.
+
+3. What is ORM?
+
+Answer: ORM (Object Relational Mapping) is a layer that allows developers to interact with the PostgreSQL database using Python code instead of writing SQL queries directly.
+
+4. Which language is used for Models?
+
+Answer: Python.
+
+5. Which language is used for Views?
+
+Answer: XML.
+
+6. What is the role of the Controller?
+
+Answer: It receives HTTP requests from the browser, calls the appropriate model, and returns the response to the user interface.
+
+=====
+
+| Topic                   | Description                                               |
+| ----------------------- | --------------------------------------------------------- |
+| Three-Tier Architecture | Presentation Layer, Application Layer, Database Layer     |
+| MVC                     | Model, View, Controller                                   |
+| ORM                     | Converts Python operations into SQL queries               |
+| Request Flow            | Browser → Controller → Model → ORM → PostgreSQL → Browser |
+| Database                | PostgreSQL stores all Odoo business data                  |
+| Models                  | Python classes representing business objects              |
+| Views                   | XML files defining the user interface                     |
+| Controllers             | Handle web requests and responses                         |
+
+
+===============
+
+Key Point to Remember
+
+Every action in Odoo follows the same path:
+
+User → Browser → Odoo Server → Model → ORM → PostgreSQL → ORM → Odoo Server → Browser → User
+
+=========
+
