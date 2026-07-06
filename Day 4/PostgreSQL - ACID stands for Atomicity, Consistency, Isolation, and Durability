@@ -1,0 +1,171 @@
+In the context of PostgreSQL and databases, ACID is not the chemical acid. It is an acronym that describes the four properties that make database
+transactions reliable.
+
+ACID = A C I D
+--------------
+
+| Letter | Full Form       | Simple Meaning                                                                  |
+| ------ | --------------- | ------------------------------------------------------------------------------- |
+| **A**  | **Atomicity**   | Either **all operations succeed** or **none of them happen**.                   |
+| **C**  | **Consistency** | Data always remains **correct and valid**.                                      |
+| **I**  | **Isolation**   | Multiple users can work simultaneously **without interfering** with each other. |
+| **D**  | **Durability**  | Once data is saved, it **stays saved**, even if the server crashes.             |
+
+==========
+
+1. Atomicity (All or Nothing)
+
+Imagine transferring ₹500 from Account A to Account B.
+
+Account A: ₹1000
+Account B: ₹500
+
+Steps:
+
+Deduct ₹500 from A ✅
+Add ₹500 to B ✅
+
+If step 2 fails due to a power failure:
+
+❌ Without Atomicity
+
+Account A = ₹500
+Account B = ₹500
+
+Money is lost.
+
+✅ With Atomicity
+
+Transaction Cancelled
+
+Account A = ₹1000
+Account B = ₹500
+
+Everything rolls back.
+
+Meaning: Either the entire transaction succeeds or nothing changes.
+
+===========
+
+2. Consistency (Data Always Correct)
+
+Suppose an employee's salary cannot be negative.
+
+Rule:
+
+Salary >= 0
+
+Someone tries:
+
+UPDATE employee
+SET salary = -5000;
+
+The database rejects it.
+
+The database always maintains valid data.
+
+=====
+
+3. Isolation (Users Don't Disturb Each Other)
+
+Suppose two cashiers edit the same product simultaneously.
+
+Cashier A
+
+Changes Price
+₹500 → ₹550
+
+Cashier B
+
+Changes Stock
+20 → 18
+
+PostgreSQL keeps these operations isolated so they don't overwrite each other's work or read incomplete data.
+
+=========
+
+4. Durability (Data Never Lost After Commit)
+
+You save a sales invoice in Odoo.
+
+Sales Order
+Invoice Created
+Payment Saved
+
+Immediately after saving, the server loses power.
+
+When PostgreSQL restarts:
+
+Invoice Still Exists ✅
+
+The committed data is permanently stored.
+
+========
+
+ACID in Odoo
+-------------
+
+Real-world Odoo Example
+
+A customer buys a laptop.
+
+Odoo performs:
+
+Create Sales Order
+Reduce Inventory
+Create Invoice
+Record Payment
+
+If step 3 fails:
+
+❌ Inventory should NOT decrease.
+❌ Sales Order should NOT be partially saved.
+
+PostgreSQL rolls back everything.
+
+This is Atomicity.
+
+======
+
+
+User Creates Invoice
+        │
+        ▼
+Odoo ORM
+        │
+        ▼
+PostgreSQL Transaction
+        │
+        ▼
+ACID Properties Applied
+        │
+        ▼
+Data Safely Stored
+
+
+=======
+
+ACID stands for Atomicity, Consistency, Isolation, and Durability. 
+These four properties ensure that every database transaction is processed completely, maintains data integrity,
+works safely with concurrent users, and remains permanently stored after a successful commit. 
+
+PostgreSQL is an ACID-compliant (Following the required rules or standards) database, 
+which is one reason it is used by Odoo ERP.
+
+=========
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
